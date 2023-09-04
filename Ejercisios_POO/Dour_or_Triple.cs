@@ -26,7 +26,7 @@ namespace Ejercisios_POO
             num2 = Convert.ToDouble(Console.ReadLine());
         }
 
-        public void Calcular_numero()
+        public void CalcularNumero()
         {
             if (num1>=num2)
             {

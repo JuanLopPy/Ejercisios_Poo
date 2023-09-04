@@ -16,7 +16,7 @@ namespace Ejercisios_POO
         #region methods
         public void calcularResiduo() {
          
-            Console.Write("Ingresa el segundo número: ");
+           
             if (double.TryParse(Console.ReadLine(), out double numero2)) // to validate a correct input of second number 
             {
                 double residuo = num1 % num2;

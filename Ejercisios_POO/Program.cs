@@ -11,6 +11,7 @@ namespace MyfirstOOPcode_saturday
         static void Main(string[] args)
         {
            // first exercise 
+           
            Console.Write("Possitive power.\n");
             Possitive_Power cuadradoPositivo = new Possitive_Power();
             cuadradoPositivo.IngresarNumero();
@@ -63,7 +64,20 @@ namespace MyfirstOOPcode_saturday
             remainder_Finder.num1=numero1;
             remainder_Finder.num2=num2;
             remainder_Finder.calcularResiduo();
-            
+             // eighth exercise
+             Sum_Evens sum_Evens = new Sum_Evens();
+            sum_Evens.suma();
+
+            // nineth exercise
+            Console.Write("Ingresa la primera fracción (numerador/denominador): ");
+            string fraccion1 = Console.ReadLine();
+            Console.Write("Ingresa la segunda fracción (numerador/denominador): ");
+            string fraccion2 = Console.ReadLine();
+            Fraction_Difference fraction_Difference = new Fraction_Difference();
+            fraction_Difference.fraccion1 = fraccion1;
+            fraction_Difference.fraccion2 = fraccion2;
+            fraction_Difference.mostrar();
+           
 
 
         }

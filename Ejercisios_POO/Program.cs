@@ -11,7 +11,7 @@ namespace MyfirstOOPcode_saturday
         static void Main(string[] args)
         {
            // first exercise 
-            Console.Write("Possitive power.\n");
+           Console.Write("Possitive power.\n");
             Possitive_Power cuadradoPositivo = new Possitive_Power();
             cuadradoPositivo.IngresarNumero();
             cuadradoPositivo.CalcularCuadrado(); 
@@ -36,6 +36,7 @@ namespace MyfirstOOPcode_saturday
             Circle_Perimeter circle = new Circle_Perimeter();
             circle.radio=radio;
             circle.CalcularPerimetro(); 
+            
 
             //fifth exercise
             Console.Write("Midweek day.\n");
@@ -43,7 +44,7 @@ namespace MyfirstOOPcode_saturday
             int num = Convert.ToInt32(Console.ReadLine());
            Midweek_Day midweek_Day = new Midweek_Day();
             midweek_Day.num=num;  
-           midweek_Day.CalcularDia();
+           midweek_Day.CalcularDia(); 
             // sixth exercise 
             Console.Write("Tax Calculator.\n");
             Console.Write("Ingresa tu salario: ");
@@ -51,6 +52,17 @@ namespace MyfirstOOPcode_saturday
             Tax_Calculator tax_Calculator = new Tax_Calculator();
             tax_Calculator.salarioAnual = salario;
             tax_Calculator.calcularSalario();
+
+            // seventh execise
+            Console.Write("Tax Calculator.\n");
+            Console.Write("Ingresa un número: ");
+            double numero1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Ingresa otro número: ");
+            double num2 = Convert.ToDouble(Console.ReadLine());
+            Remainder_Finder remainder_Finder = new Remainder_Finder(); 
+            remainder_Finder.num1=numero1;
+            remainder_Finder.num2=num2;
+            remainder_Finder.calcularResiduo();
             
 
 

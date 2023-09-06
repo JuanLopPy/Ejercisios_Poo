@@ -77,13 +77,21 @@ namespace MyfirstOOPcode_saturday
             Fraction_Difference fraction_Difference = new Fraction_Difference();
             fraction_Difference.fraccion1 = fraccion1;
             fraction_Difference.fraccion2 = fraccion2;
-            fraction_Difference.mostrar();*/
-            // ten exercise
+            fraction_Difference.mostrar();
+            // tenth exercise
+            Console.Write("String Length. \n ");
             Console.Write("Ingrese una palabra: ");
             string palabra = Console.ReadLine();
             String_Length string_Length = new String_Length();
             string_Length.palabra = palabra;
-            Console.Write("" +string_Length.NumPalabra());
+            Console.Write("" +string_Length.NumPalabra()); 
+           */
+            // eleventh exercise 
+          Average_of_Four average = new Average_of_Four();
+            average.IngresaNum();
+            average.prom();
+
+            
 
         }
 

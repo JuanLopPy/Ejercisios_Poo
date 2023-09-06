@@ -90,13 +90,19 @@ namespace MyfirstOOPcode_saturday
             Console.Write("Average of four. \n ");
             Average_of_Four average = new Average_of_Four();
             average.IngresaNum();
-            average.prom(); */
+            average.prom(); 
 
             // twelve exercise 
             Console.Write(" Smallest of Five. \n ");
             Smallest_of_five smallest= new Smallest_of_five();
             smallest.IngresaNum();
-            smallest.minimo();  
+            smallest.minimo();  */
+            // thirtyth exercise
+            Console.Write(" Vowel Counter  \n ");
+            Vowel_counter vowe = new Vowel_counter();
+            Console.WriteLine("Ingrese la palabra");
+           string Palabra = Console.ReadLine();
+            vowe.contarvocales(Palabra);
 
 
 

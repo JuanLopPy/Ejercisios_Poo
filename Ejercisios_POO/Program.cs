@@ -11,7 +11,7 @@ namespace MyfirstOOPcode_saturday
         static void Main(string[] args)
         {
             // first exercise 
-            /*
+            
             Console.Write("Possitive power.\n");
              Possitive_Power cuadradoPositivo = new Possitive_Power();
              cuadradoPositivo.IngresarNumero();
@@ -96,15 +96,18 @@ namespace MyfirstOOPcode_saturday
             Console.Write(" Smallest of Five. \n ");
             Smallest_of_five smallest= new Smallest_of_five();
             smallest.IngresaNum();
-            smallest.minimo();  */
-            // thirtyth exercise
+            smallest.minimo();  
+            // thirteenth exercise
             Console.Write(" Vowel Counter  \n ");
             Vowel_counter vowe = new Vowel_counter();
             Console.WriteLine("Ingrese la palabra");
            string Palabra = Console.ReadLine();
             vowe.contarvocales(Palabra);
-
-
+            //fourteenth exercise
+            Factorial_Finder factorial_finder = new Factorial_Finder();
+            Console.Write("Ingresa un número positivo: ");
+             numero = Convert.ToDouble(Console.ReadLine());
+            factorial_finder.calcular(numero);
 
         }
 
